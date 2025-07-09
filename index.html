@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>theme</title>
+</head>
+<body>
+    <aside>
+        <div class="logo">
+            <img src="img/sibuk.png" alt="">
+            <a href="#">Sisi <span>Sistem Informasi</span></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><span><i class='bx bxs-dashboard'></i></span> Dashboard</a></li>
+                <li><a href="#"><span><i class='bx bx-qr-scan' ></i></span> Menu Pertama</a></li>
+                <li><a href="#" onclick="toggleMenu(event)"><span><i class='bx bxl-xing'></i></span> Submenu <i class='bx bx-chevron-down'></i></a>
+                    <ul>
+                        <li><a href="#">Submenu 1</a></li>
+                        <li><a href="#">Submenu 2</a></li>
+                        <li><a href="#">Submenu 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span><i class='bx bx-hard-hat' ></i></span> Menu Kedua</a></li>
+                <li class="end"><a href="#"><span><i class='bx bx-log-in-circle' ></i></span> Logout</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p>Hello World!</p>
+        </div>
+    </aside>
+
+    <main>
+        <section>Hello Bro! How can i help you today?</section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
